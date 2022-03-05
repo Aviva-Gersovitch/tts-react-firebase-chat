@@ -1,0 +1,19 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyA8S6o6JmVhUvkc2qi_FOUqMGCwWUfmZyY",
+    authDomain: "persistent-chat-app-react.firebaseapp.com",
+    projectId: "persistent-chat-app-react",
+    storageBucket: "persistent-chat-app-react.appspot.com",
+    messagingSenderId: "144521392971",
+    appId: "1:144521392971:web:fc628b1d4d996a82c06ece"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
